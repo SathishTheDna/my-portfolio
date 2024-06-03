@@ -1,8 +1,8 @@
 const selectOptions = [
-	'Web Application',
-	'Mobile Application',
-	'UI/UX Design',
-	'Branding',
+	'Unity VR Application',
+	'Unity AR Application',
+	'Unity Non-XR Application',
+	'IoT Project',
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {
