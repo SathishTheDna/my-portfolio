@@ -71,9 +71,13 @@ function ContactForm() {
                         subject: '',
                         message: ''
                     });
+
+                    alert("Message sent successfully!");
                 })
                 .catch((error) => {
                     console.error('Error sending email:', error);
+
+                    alert("Unable to send your message. Please try again, or you can email me directly.");
                 });
         } else {
             console.log('Form has errors, cannot send message');
