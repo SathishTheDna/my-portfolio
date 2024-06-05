@@ -16,7 +16,7 @@ import StoryBits from '../images/projects/storybits/storybits.png';
 import TuioClient from '../images/projects/tuio-client-package/tuio-client-package.png';
 import VRArchitecture from '../images/projects/vr-architecture-visualization/vr-architecture-1.png';
 import VRDevKit from '../images/projects/vr-dev-toolkit/vr-dev-toolkit.png';
-import VRHandKeypad from '../images/projects/vr-hand-keypad/vr-hand-keypad.png';
+import VRHandKeypad from '../images/projects/vr-hand-keypad/vr-hand-keypad-1.png';
 import VRShipSimulator from '../images/projects/vr-ship-bridge-simulator/vr-ship-1.png';
 import XRPresentations from '../images/projects/xr-presentations/xr-presentations-1.png';
 
