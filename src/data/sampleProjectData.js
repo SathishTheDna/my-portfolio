@@ -20,7 +20,6 @@ const sampleProjectData = {
 		}
 	],
 	ProjectInfo: {
-		Summary: 'Sample Project in React',
 		Technologies: [
 			{
 				title: 'Tools & Technologies',
@@ -32,8 +31,8 @@ const sampleProjectData = {
 			},
 		],
 		ObjectivesHeading: 'Overview',
-		ObjectiveDetails: 'Sample Project in React for Portfolio',
-		ProjectDetailsHeading: 'Details',
+		ObjectivesDetails: 'Sample Project in React for Portfolio',
+		ProjectDetailsHeading: 'Project Details',
 		ProjectDetails: [
 			{
 				id: 1,
