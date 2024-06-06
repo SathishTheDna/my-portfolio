@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <title>Page Not Found</title>
-    <meta http-equiv="refresh" content="0; URL=/my-portfolio/index.html" />
-    
     <script type="text/javascript">
-      // Redirect all 404s to index.html
-      var pathname = window.location.pathname;
-      var search = window.location.search;
-      var hash = window.location.hash;
-      window.location.replace('/my-portfolio' + pathname + search + hash);
+      // Prevent infinite redirection loop
+      if (!window.location.pathname.startsWith('/my-portfolio')) {
+        // Capture current path, search, and hash
+        var pathname = window.location.pathname;
+        var search = window.location.search;
+        var hash = window.location.hash;
+
+        // Redirect to /my-portfolio/index.html with original path preserved
+        window.location.replace('/my-portfolio' + pathname + search + hash);
+      }
     </script>
   </head>
-  <body></body>
+  <body>
+  </body>
 </html>
