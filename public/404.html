@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/" />
+    <meta charset="UTF-8">
+    <title>Page Not Found</title>
+    <meta http-equiv="refresh" content="0; URL=/my-portfolio/index.html" />
+    
+    <script type="text/javascript">
+      // Redirect all 404s to index.html
+      var pathname = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+      window.location.replace('/my-portfolio' + pathname + search + hash);
+    </script>
   </head>
   <body></body>
 </html>
