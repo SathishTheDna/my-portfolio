@@ -20,7 +20,7 @@ export const singleProjectData = {
 		publishDate: 'Jul 26, 2021',
 		tags: 'UI / Frontend',
 	},
-	ProjectImages: [
+	ProjectMedia: [
 		{
 			id: 1,
 			title: 'Kabul Project Management UI',
