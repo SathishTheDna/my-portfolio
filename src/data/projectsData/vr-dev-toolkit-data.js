@@ -20,7 +20,7 @@ export const vrDevToolkitData = {
 			{
 				title: 'Tools & Technologies',
 				techs: [
-                    'Unity', 'Oculus Quest 1s, HTC Vive, OpenVR'
+                    'Unity', 'Oculus Quest 1, HTC Vive, OpenVR'
 				],
 			},
 		],
