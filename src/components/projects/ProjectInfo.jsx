@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import SingleProjectContext from '../../context/SingleProjectContext';
+import { FiExternalLink } from 'react-icons/fi';
 
 const ProjectInfo = () => {
 	const { singleProjectData } = useContext(SingleProjectContext);
@@ -62,6 +63,33 @@ const ProjectInfo = () => {
 					</p>
 				</div>
 
+				{/* Useful Links */}
+				{
+					(singleProjectData.ProjectInfo.ExternalLinks?.length ?? 0) !== 0 && (
+						<div className="mb-7">
+							<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
+								{singleProjectData.ProjectInfo.ExternalLinksHeading}
+							</p>
+							
+							{singleProjectData.ProjectInfo.ExternalLinks.map(
+								(linkDetails) => {
+									return (
+										<a
+											href={linkDetails.url}
+											key={linkDetails.id}
+											target="__blank"
+											rel="noopener noreferrer"
+											className="text-gray-400 hover:text-primary-dark dark:hover:text-primary-light shadow-sm duration-500 flex items-center mb-3"
+										>
+											<span>{linkDetails.name}</span>
+											<FiExternalLink className="text-lg lg:text-2xl ml-1" />
+										</a>
+									);
+								}
+							)}
+					</div>
+				)}
+				
 				{/* Single project social sharing */}
 				{/* <div>
 					<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
