@@ -3,14 +3,14 @@ function AppFooterCopyright() {
 		<div className="font-general-regular flex justify-center items-center text-center">
 			<div className="text-lg text-ternary-dark dark:text-ternary-light">
 				Copyright &copy; {new Date().getFullYear()}
-				<a
+				{/* <a
 					href="https://github.com/SathishTheDna/my-portfolio"
 					target="__blank"
 					className="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500"
 				>
 					Portfolio 
 				</a>
-				&nbsp;of
+				&nbsp;of */}
 				<a
 					href="https://www.linkedin.com/in/sathish-raja-bommannan/"
 					target="__blank"
