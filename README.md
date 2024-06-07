@@ -1,4 +1,18 @@
-# React & TailwindCSS Portfolio - With Dark Mode
+# Portfolio
+
+A portfolio of [Sathish Raja Bommannan](https://www.linkedin.com/in/sathish-raja-bommannan).s
+
+Made with React and Tailwind CSS.
+
+## Live URL
+
+[https://sathishthedna.github.io/my-portfolio/]
+
+### License
+
+[MIT](https://github.com/SathishTheDna/my-portfolio/blob/portfolio/LICENSE)
+
+<!-- # React & TailwindCSS Portfolio - With Dark Mode
 
 A simple portfolio starter theme built with React and Tailwind CSS. This is the React version of [vuejs-tailwindcss-portfolio](https://github.com/realstoman/vuejs-tailwindcss-portfolio).
 
@@ -96,3 +110,5 @@ yarn test
 ### License
 
 [MIT](https://github.com/realstoman/react-tailwindcss-portfolio/blob/main/LICENSE)
+ -->
+ 
