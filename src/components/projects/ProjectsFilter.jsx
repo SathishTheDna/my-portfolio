@@ -1,4 +1,5 @@
 const selectOptions = [
+	'All Projects', // Element 0 should always be All categories.
 	'Unity VR Application',
 	'Unity AR Application',
 	'Unity Non-XR Application',
@@ -9,7 +10,8 @@ const ProjectsFilter = ({ setSelectProject }) => {
 	return (
 		<select
 			onChange={(e) => {
-				setSelectProject(e.target.value);
+				let selectedCategory = e.target.value;
+				setSelectProject(selectedCategory === selectOptions[0] ? '' : selectedCategory);
 			}}
 			className="font-general-medium 
                 px-4
@@ -27,9 +29,6 @@ const ProjectsFilter = ({ setSelectProject }) => {
                 dark:text-ternary-light
             "
 		>
-			<option className="text-sm sm:text-md">
-				All Projects
-			</option>
 
 			{selectOptions.map((option) => (
 				<option className="text-normal sm:text-md" key={option}>
