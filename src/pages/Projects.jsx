@@ -5,7 +5,7 @@ const Projects = () => {
 	return (
 		<ProjectsProvider>
 			<div className="container mx-auto">
-				<ProjectsGrid />
+				<ProjectsGrid showAll={true}/>
 			</div>
 		</ProjectsProvider>
 	);

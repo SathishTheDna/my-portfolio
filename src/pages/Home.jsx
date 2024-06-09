@@ -10,7 +10,7 @@ const Home = () => {
 			<AppBanner></AppBanner>
 
 			<ProjectsProvider>
-				<ProjectsGrid></ProjectsGrid>
+				<ProjectsGrid showAll={false}></ProjectsGrid>
 			</ProjectsProvider>
 
 			<div className="mt-8 sm:mt-10 flex justify-center">
