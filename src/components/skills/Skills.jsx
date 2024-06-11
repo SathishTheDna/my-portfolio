@@ -3,14 +3,14 @@ import { skillsData } from "../../data/skills";
 
 const Skills = () => {
     return (
-        <section className="py-5 sm:py-10 mt-5 sm:mt-10">
+        <section className="py-5 sm:py-10 mt-2 sm:mt-4">
             <div className="text-center">
                 <p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
                     Skills
                 </p>
             </div>
 
-            <div className="mt-10 sm:mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div className="mt-5 sm:mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
                 {skillsData.map((category) => (
                     <div key={category.id} className="skill-category bg-primary-light dark:bg-ternary-dark p-5 rounded-xl shadow-md">
                         <h3 className="font-general-regular text-xl text-center mb-4 text-secondary-dark dark:text-ternary-light">
