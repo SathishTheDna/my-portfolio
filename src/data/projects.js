@@ -5,7 +5,7 @@ import Drone from '../images/projects/emergency-rescue-drone/drone-3.png';
 import GloveGesture from '../images/projects/glove-gesture-recognition/glove-gesture-2.png';
 import HandsOnlyLocomotion from '../images/projects/hands-only-locomotion-system/locomotion-1.png';
 import HullCleaner from '../images/projects/hull-cleaner/hull-cleaner-1.png';
-import Trollheimen from '../images/projects/itrollheimen/itrollheimen-1.png';
+import Trollheimen from '../images/projects/itrollheimen/itrollheimen-2.png';
 import KongsbergDisplay from '../images/projects/kongsberg-product-display/kongsberg-1.jpeg';
 import MagiPaint from '../images/projects/magipaint-ar/magipaint-2.png';
 import MagiStack from '../images/projects/magistack-ar/stack-3.png';
@@ -17,8 +17,8 @@ import TuioClient from '../images/projects/tuio-client-package/tuio-client-packa
 import VRArchitecture from '../images/projects/vr-architecture-visualization/vr-architecture-1.png';
 import VRDevKit from '../images/projects/vr-dev-toolkit/vr-dev-toolkit.png';
 import VRHandKeypad from '../images/projects/vr-hand-keypad/vr-hand-keypad-1.png';
-import VRShipSimulator from '../images/projects/vr-ship-bridge-simulator/vr-ship-1.png';
-import XRPresentations from '../images/projects/xr-presentations/xr-presentations-1.png';
+import VRShipSimulator from '../images/projects/vr-ship-bridge-simulator/vr-ship-2.png';
+import XRPresentations from '../images/projects/xr-presentations/xr-presentations-2.png';
 
 export const projectsData = [
 	{
@@ -72,11 +72,11 @@ export const projectsData = [
 		img: Drone,
 	},
 	{
-		id: 'salmon-farm-showcase',
-		title: 'Salmon Farm Showcase App',
+		id: 'gesture-recognition-glove',
+		title: 'Real-time Numerical Gesture Recognition using MPU 9250 Motion Sensor',
 		category: 'Unity Non-XR Application',
-		img: SalmonFarm,
-	},
+		img: GloveGesture,
+	},	
 	{
 		id: 'vr-architecture-visualization',
 		title: 'VR Architecture Visualization App',
@@ -90,11 +90,11 @@ export const projectsData = [
 		img: KongsbergDisplay,
 	},
 	{
-		id: 'gesture-recognition-glove',
-		title: 'Real-time Numerical Gesture Recognition using MPU 9250 Motion Sensor',
+		id: 'salmon-farm-showcase',
+		title: 'Salmon Farm Showcase App',
 		category: 'Unity Non-XR Application',
-		img: GloveGesture,
-	},
+		img: SalmonFarm,
+	},	
 	{
 		id: 'vr-dev-toolkit',
 		title: 'VR Development Toolkit',
