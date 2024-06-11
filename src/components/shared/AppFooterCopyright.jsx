@@ -18,6 +18,10 @@ function AppFooterCopyright() {
 				>
 					Sathish Raja Bommannan.
 				</a>
+				<br/>
+				<span className="text-sm">
+					<i> Last Updated On:&nbsp;&nbsp;</i><b>11 Jun 2024.</b>
+				</span>
 			</div>
 		</div>
 	);
