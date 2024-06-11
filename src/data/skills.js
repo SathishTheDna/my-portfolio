@@ -13,6 +13,7 @@ import { ReactComponent as WebXRIcon } from '../images/skills/webxr.svg';
 import { ReactComponent as AspDotNetIcon } from '../images/skills/aspdotnet.svg';
 import { ReactComponent as SQLServerIcon } from '../images/skills/sql-server.svg';
 import { ReactComponent as SignalRIcon } from '../images/skills/signalr.svg';
+import { ReactComponent as PostmanIcon } from '../images/skills/postman.svg';
 import { ReactComponent as MeldIcon } from '../images/skills/meld.svg';
 import { ReactComponent as VisualStudioIcon } from '../images/skills/visual-studio.svg';
 import { ReactComponent as VSCodeIcon } from '../images/skills/visual-studio-code.svg';
@@ -72,6 +73,7 @@ export const skillsData = [
             { id: 6, title: 'WebRTC', icon: <SiWebrtc /> },
             { id: 7, title: 'AWS', icon: <FaAws /> },
             { id: 8, title: 'Docker', icon: <SiDocker /> },
+            { id: 9, title: 'Postman', icon: <PostmanIcon /> },
         ]
     },
     {
