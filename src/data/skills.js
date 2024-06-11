@@ -1,6 +1,6 @@
 import { FaReact, FaHtml5, FaCss3Alt, FaPython, FaJava, FaGit, FaAws } from 'react-icons/fa';
 import { TbHexagonLetterCFilled } from "react-icons/tb";
-import { SiJavascript, SiTypescript, SiCsharp, SiCplusplus, SiMysql, SiUnity, SiThreedotjs, SiBabylonjs, SiAframe, SiOpengl, SiMeta, SiHtc, SiOpenxr, SiDotnet, SiAspnet, SiSignalr, SiWebrtc, SiDocker, SiGithub, SiBitbucket, SiJira, SiLinux, SiVuforia, SiArcore, SiArjs, SiWebxr } from 'react-icons/si';
+import { SiJavascript, SiTypescript, SiCsharp, SiCplusplus, SiMysql, SiUnity, SiThreedotjs, SiAframe, SiOpengl, SiWebrtc, SiDocker, SiGithub, SiBitbucket, SiJira, SiLinux } from 'react-icons/si';
 import { ReactComponent as BabylonIcon } from '../images/skills/babylon.svg';
 import { ReactComponent as MetaIcon } from '../images/skills/meta.svg';
 import { ReactComponent as HTCViveIcon } from '../images/skills/htc-vive.svg';
