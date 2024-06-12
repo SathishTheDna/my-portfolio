@@ -17,12 +17,10 @@ const ProjectSingle = ({ id, title, category, image }) => {
 					<div>
 						<img
 							src={image}
-							className="rounded-t-xl border-none"
+							className="rounded-t-xl w-full border-none"
 							style={{
-								width: '100%',
 								height: '300px',
-								objectFit: 'cover',
-								verticalAlign: 'middle'
+								objectFit: 'cover'
 							}}
 							alt="Single Project"
 						/>
