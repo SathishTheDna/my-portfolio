@@ -15,7 +15,7 @@ const AboutMe = () => {
                     <img src={profileImage} className="rounded-xl w-96" alt="" />
                 </div>
 
-                <div className="font-general-regular w-full sm:w-3/4 text-left">
+                <div className="font-general-regular w-full sm:w-3/4 text-justify">
                     <p
                         className="text-ternary-dark dark:text-ternary-light text-xl leading-loose"
                     >
