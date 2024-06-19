@@ -1,6 +1,6 @@
-import { FaReact, FaHtml5, FaCss3Alt, FaPython, FaJava, FaGit, FaAws } from 'react-icons/fa';
+import { FaReact, FaHtml5, FaCss3Alt, FaPython, FaJava, FaGit, FaSourcetree, FaAws } from 'react-icons/fa';
 import { TbHexagonLetterCFilled } from "react-icons/tb";
-import { SiJavascript, SiTypescript, SiCsharp, SiCplusplus, SiMysql, SiUnity, SiThreedotjs, SiAframe, SiOpengl, SiWebrtc, SiDocker, SiGithub, SiBitbucket, SiJira, SiLinux } from 'react-icons/si';
+import { SiJavascript, SiTypescript, SiCsharp, SiCplusplus, SiMysql, SiUnity, SiThreedotjs, SiAframe, SiOpengl, SiWebrtc, SiDocker, SiSubversion, SiGithub, SiBitbucket, SiJira, SiLinux } from 'react-icons/si';
 import { ReactComponent as BabylonIcon } from '../images/skills/babylon.svg';
 import { ReactComponent as MetaIcon } from '../images/skills/meta.svg';
 import { ReactComponent as HTCViveIcon } from '../images/skills/htc-vive.svg';
@@ -14,6 +14,7 @@ import { ReactComponent as AspDotNetIcon } from '../images/skills/aspdotnet.svg'
 import { ReactComponent as SQLServerIcon } from '../images/skills/sql-server.svg';
 import { ReactComponent as SignalRIcon } from '../images/skills/signalr.svg';
 import { ReactComponent as PostmanIcon } from '../images/skills/postman.svg';
+import { ReactComponent as TortoiseSVNIcon } from '../images/skills/tortoise-svn.svg';
 import { ReactComponent as MeldIcon } from '../images/skills/meld.svg';
 import { ReactComponent as VisualStudioIcon } from '../images/skills/visual-studio.svg';
 import { ReactComponent as VSCodeIcon } from '../images/skills/visual-studio-code.svg';
@@ -81,9 +82,12 @@ export const skillsData = [
         title: 'Source Control',
         data: [
             { id: 1, title: 'Git', icon: <FaGit /> },
-            { id: 2, title: 'Github', icon: <SiGithub /> },
-            { id: 3, title: 'Bitbucket', icon: <SiBitbucket /> },
-            { id: 4, title: 'Meld', icon: <MeldIcon /> },
+            { id: 2, title: 'Subversion', icon: <SiSubversion /> },
+            { id: 3, title: 'Github', icon: <SiGithub /> },
+            { id: 4, title: 'Bitbucket', icon: <SiBitbucket /> },
+            { id: 5, title: 'SourceTree', icon: <FaSourcetree /> },
+            { id: 6, title: 'Tortoise SVN', icon: <TortoiseSVNIcon/> },
+            { id: 7, title: 'Meld', icon: <MeldIcon /> },
         ]
     },
     {
